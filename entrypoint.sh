@@ -21,4 +21,4 @@ if [ "$2" = "true" ]; then
     Opts = "-c"
 fi
 
-/tools/devskim analyze "$ScanTarget" "$OutputDirectory/$3" -f sarif $Opts
+/tools/devskim analyze "$ScanTarget" "$OutputDirectory/$3" -f text $Opts
